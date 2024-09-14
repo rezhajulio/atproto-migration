@@ -7,6 +7,6 @@ Account migration is a potentially destructive operation. Part of the operation 
 
 # How to migrate your account
 
-- Modify the variable at the top of migration.ts to your own values. if you use handle outside of bskt.social, you can use the same value in `CURRENT_HANDLE` and `NEW_HANDLE`.
+- Modify the variable at the top of migration.ts to your own values. if you use handle outside of bsky.social, you can use the same value in `CURRENT_HANDLE` and `NEW_HANDLE`.
 - Run `npm install` to install the dependencies.
 - Run `npm run migrate` to start the migration process.
