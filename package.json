@@ -1,0 +1,21 @@
+{
+  "name": "atproto-migration",
+  "version": "1.0.0",
+  "main": "run-migration.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node run-migration.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@atproto/api": "^0.13.7",
+    "@atproto/crypto": "^0.4.1",
+    "@types/node": "^22.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2",
+    "uint8arrays": "^3.0.0"
+  }
+}
